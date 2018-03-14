@@ -1,0 +1,24 @@
+{
+  "name": "knit-chain",
+  "version": "1.0.0",
+  "description": "Lightweight unencrypted block-chain",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knit-chain/knit-chain.git"
+  },
+  "author": "Ender Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knit-chain/knit-chain/issues"
+  },
+  "homepage": "https://github.com/knit-chain/knit-chain#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "jest": "^22.4.2"
+  }
+}
