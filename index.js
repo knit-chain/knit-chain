@@ -33,4 +33,10 @@ console.log(`\ngetLatest: ${JSON.stringify(myKnitChain.getLatest())}`);
 
 console.log(`\nisValid: ${myKnitChain.isValid()}`);
 
+myKnitChain.chain[0].docs[0] = 99;
+
+console.log(`\nalter (invalidate) the chain:\nmyKnitChain.chain[0].data[0] = 99;`);
+
+console.log(`\nisValid: ${myKnitChain.isValid()}`);
+
 console.log(`\nEND OF DEMO\n`);
