@@ -30,7 +30,7 @@ _lightweight block-chain, without smart-contract_
 
 Because of the complexity of most block-chain implementations, they are often discarded as a realistic option for smaller-scale solutions. Knit-chain was created to fill that need -- to provide a go-to option for exploring light-weight use cases for block-chain.
 
-## install and require
+## install
 ### npm install:
 In project directory (with existing package.json):
 ```sh
