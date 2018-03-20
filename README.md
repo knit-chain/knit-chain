@@ -123,5 +123,7 @@ myKC.isValid();
 // if hashes are incorrect, returns false
 ```
 ## updates:
+### ```1.0.7```
+* _added keywords to package.json_
 ### ```1.0.6```
 * _set difficulty and docsLimits as knitchain constructor optional parameters_

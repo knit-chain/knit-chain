@@ -1,6 +1,6 @@
 {
   "name": "knitchain",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lightweight block-chain, without smart-contract",
   "main": "index.js",
   "scripts": {
@@ -44,5 +44,23 @@
   "dependencies": {
     "crypto-js": "^3.1.9-1",
     "dotenv": "^5.0.1"
-  }
+  },
+  "keywords": [
+    "blockchain",
+    "block",
+    "chain",
+    "data",
+    "structure",
+    "knit",
+    "knitchain",
+    "lightweight",
+    "cryptocurrency",
+    "crypto",
+    "currency",
+    "nodes",
+    "small",
+    "sll",
+    "linked",
+    "list"
+  ]
 }
