@@ -30,6 +30,10 @@ _lightweight block-chain, without smart-contract_
 
 Because of the complexity of most block-chain implementations, they are often discarded as a realistic option for smaller-scale solutions. Knit-chain was created to fill that need -- to provide a go-to option for exploring light-weight use cases for block-chain.
 
+## testing
+All tests passing.
+96.72% of statements covered.
+
 ## install
 ### npm install:
 In project directory (with existing package.json):
@@ -83,7 +87,7 @@ myKC.insertData('data 2');
 //      {
 //        createdAt: 1521485744340,
 //        docs: [
-//          { value: 'data 1', createdAt: 1521485744340 }
+//          { value: 'data 1', createdAt: 1521485744340 },
 //          { value: 'data 2', createdAt: 1521486162374 }
 //        ],
 //        docsLimit: 2,
@@ -100,7 +104,7 @@ myKC.getLatest();
 // {
 //   createdAt: 1521485744340,
 //   docs: [
-//     { value: 'data 1', createdAt: 1521485744340 }
+//     { value: 'data 1', createdAt: 1521485744340 },
 //     { value: 'data 2', createdAt: 1521486162374 }
 //   ],
 //   docsLimit: 2,
