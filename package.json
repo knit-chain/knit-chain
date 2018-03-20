@@ -1,6 +1,6 @@
 {
   "name": "knitchain",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lightweight block-chain, without smart-contract",
   "main": "index.js",
   "scripts": {
