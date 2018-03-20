@@ -1,6 +1,6 @@
 {
   "name": "knitchain",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lightweight block-chain, without smart-contract",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "url": "git+https://github.com/knit-chain/knit-chain.git"
   },
   "author": {
-    "name":"Ender Smith",
+    "name": "Ender Smith",
     "email": "david.ender.smith@gmail.com"
   },
   "license": "ISC",
