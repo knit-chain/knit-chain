@@ -48,12 +48,13 @@ const KC = require('knitchain');
 ```
 ### constructor & methods:
 ```js
-const myKC = new KC();
+const myKC = new KC(/* [difficulty (default 4)], [docsLimit (default 2)] */);
 // returns new knitchain object:
 // {
 //   chain: [],
 //   latest: null,
 //   difficulty: 4
+//   docsLimit: 2
 // }
 ```
 ```js
@@ -93,7 +94,7 @@ myKC.insertData('data 2');
 //        docsLimit: 2,
 //        previousHash: '',
 //        index: 0,
-//        closed: false,
+//        closed: true,
 //        hash: '<re-hashed block>',
 //        nonce: <new nonce value>
 //      }
@@ -110,7 +111,7 @@ myKC.getLatest();
 //   docsLimit: 2,
 //   previousHash: '',
 //   index: 0,
-//   closed: false,
+//   closed: true,
 //   hash: '<re-hashed block>',
 //   nonce: <new nonce value>
 // }
