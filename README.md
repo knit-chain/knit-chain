@@ -122,3 +122,6 @@ myKC.isValid();
 // if hashes are correct, returns true
 // if hashes are incorrect, returns false
 ```
+## updates:
+### ```1.0.6```
+* _set difficulty and docsLimits as knitchain constructor optional parameters_
