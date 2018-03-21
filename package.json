@@ -46,30 +46,16 @@
     "dotenv": "^5.0.1"
   },
   "keywords": [
-    "bitcoin",
     "blockchain",
     "block",
     "chain",
-    "cryptocurrency",
     "crypto",
-    "currency",
-    "data",
     "easy",
-    "encrypt",
     "encryption",
-    "ethereum",
     "knit",
     "knitchain",
     "local",
-    "lightweight",
-    "linked",
-    "list",
-    "nodes",
     "quick",
-    "sll",
-    "small",
-    "structure",
-    "storage",
     "template"
   ]
 }
